@@ -1,6 +1,6 @@
 /* Загальні стилі */
 body {
-    font-family: 'Open Sans', Arial, sans-serif; /* Основний шрифт для тексту */
+    font-family: 'Open Sans', Arial, sans-serif; 
     margin: 0;
     padding: 0;
     background-color: #e7e6dd;
@@ -67,11 +67,10 @@ h2::after {
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 500px;
-    margin: 20px auto; /* Центруємо блок */
-    font-family: 'Poppins', sans-serif; /* Підключаємо шрифт Poppins */
+    margin: 20px auto; 
+    font-family: 'Poppins', sans-serif; 
 }
 
-/* Підключення шрифтів */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 /* Інформація акаунта */
@@ -95,17 +94,17 @@ h2::after {
 }
 
 .account-info p {
-    font-size: 0.95em; /* Трошки менший розмір тексту */
+    font-size: 0.95em; 
     margin: 5px 0;
     color: #555;
-    font-weight: 400; /* Легкий шрифт для тексту */
+    font-weight: 400; 
 }
 
 .account-info h3 {
-    font-size: 1.1em; /* Зменшений розмір заголовку */
+    font-size: 1.1em; 
     color: #333;
     margin-top: 20px;
-    font-weight: 600; /* Жирний заголовок */
+    font-weight: 600; 
 }
 
 /* Кнопки в акаунті */
@@ -165,24 +164,24 @@ h2::after {
 
 
 h1, h2, h3 {
-    font-family: 'Roboto Slab', serif; /* Шрифт для заголовків */
+    font-family: 'Roboto Slab', serif;
     font-weight: 700;
 }
 
 p, li, button {
-    font-family: 'Open Sans', Arial, sans-serif; /* Шрифт для тексту */
+    font-family: 'Open Sans', Arial, sans-serif; 
 }
 
 
 /* Фонова стилізація хедера */
 .header-background {
-    background-image: url('./image/books2.jpg'); /* Шлях до зображення */
-    background-size: cover; /* Розтягує зображення на всю ширину */
-    background-repeat: no-repeat; /* Забороняє повторення зображення */
-    background-position: center; /* Центрує зображення */
-    color: #fff; /* Колір тексту */
+    background-image: url('./image/books2.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    color: #fff; 
     text-align: center;
-    padding: 40px 20px; /* Внутрішні відступи */
+    padding: 40px 20px; 
 }
 
 
@@ -190,30 +189,30 @@ p, li, button {
 .header-background h1 {
     font-size: 2.5em;
     margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Тінь для тексту */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
 }
 
 .navigation a {
-    color: #000; /* Чіткий чорний текст */
+    color: #000;
     text-decoration: none;
     font-size: 1em;
     font-weight: 600;
     padding: 10px 20px;
-    border-radius: 25px; /* Закруглені краї */
-    background: #f0f0f0; /* Світлий, але контрастний фон */
-    border: 1px solid #ccc; /* Легка сіра рамка */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Делікатна тінь */
-    transition: all 0.3s ease-in-out; /* Плавні переходи */
+    border-radius: 25px; 
+    background: #f0f0f0; 
+    border: 1px solid #ccc; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease-in-out; 
 }
 
 .navigation a:hover {
-    text-decoration: underline; /* Підкреслення при наведенні */
-    text-decoration-color: #333; /* Колір підкреслення */
+    text-decoration: underline; 
+    text-decoration-color: #333; 
 }
 
 .navigation a:active {
-    transform: scale(1); /* Повернення до початкового розміру */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Початкова тінь */
+    transform: scale(1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -227,7 +226,7 @@ p, li, button {
 header h1 {
     font-size: 2.5em;
     margin: 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Тінь для тексту */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
 }
 
 .navigation {
@@ -249,7 +248,7 @@ header h1 {
     font-size: 1em;
     padding: 5px 10px;
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.4); /* Напівпрозорий фон для посилань */
+    background-color: rgba(0, 0, 0, 0.4); 
 }
 
 .navigation a:hover {
@@ -318,42 +317,47 @@ h2 {
     padding: 15px;
     width: 220px;
     display: flex;
-    flex-direction: column; /* Встановлюємо вертикальний напрямок елементів */
-    justify-content: space-between; /* Розподіл між елементами */
+    flex-direction: column; 
+    justify-content: space-between; 
     text-align: center;
+}
+
+.book-card:hover {
+    background-color: #e0f7fa; /* Голуба підсвітка при наведенні */
+    transform: scale(1.05); /* Збільшення картки при наведенні */
 }
 
 .book-card button {
     margin-top: 10px;
     padding: 12px 20px;
-    background: linear-gradient(90deg, #ff7a18, #ffbb5e); /* Градієнтний фон */
+    background: linear-gradient(90deg, #ff7a18, #ffbb5e);
     color: #fff;
     border: none;
-    border-radius: 25px; /* Закруглені краї */
+    border-radius: 25px; 
     cursor: pointer;
     font-size: 1em;
     font-weight: bold;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); /* Тінь */
-    transition: all 0.3s ease; /* Анімація */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); 
+    transition: all 0.3s ease; 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px; /* Проміжок між текстом і іконкою */
+    gap: 10px; 
 }
 
 .book-card button:hover {
-    background: linear-gradient(90deg, #ffbb5e, #ff7a18); /* Зворотний градієнт */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Збільшення тіні */
-    transform: translateY(-2px); /* Злегка піднімається при наведенні */
+    background: linear-gradient(90deg, #ffbb5e, #ff7a18); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
 }
 
 
 .book-image {
-    width: 100%; /* Зображення заповнює весь контейнер по ширині */
-    height: 200px; /* Фіксована висота для однакового вигляду */
-    object-fit: contain; /* Вміщує зображення повністю, зберігаючи пропорції */
+    width: 100%; 
+    height: 200px; 
+    object-fit: contain; 
     border-radius: 8px;
-    background-color: #fff; /* Фон для зображень меншого розміру */
+    background-color: #fff; 
 }
 
 
@@ -371,8 +375,8 @@ h2 {
 
 
 .book-card button:active {
-    transform: translateY(0); /* Повернення кнопки */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Повернення тіні */
+    transform: translateY(0); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 /* Іконка */
@@ -409,7 +413,6 @@ footer {
 
 /* Медіа-запит для планшетів (макс. ширина 768px) */
 @media (max-width: 768px) {
-    /* Панель навігації: розміщуємо пункти вертикально */
     .navigation {
         flex-direction: column;
         align-items: center;
@@ -419,36 +422,32 @@ footer {
         margin-bottom: 10px;
     }
     
-    /* Стилі для заголовків на планшетах */
     h1, h2, h3 {
         font-size: 1.8em;
     }
     
-    /* Адаптивні зображення для книг */
     .book-image {
-        width: 100%; /* Зображення адаптуються до ширини контейнера */
-        height: auto; /* Висота автоматично коригується для збереження пропорцій */
+        width: 100%; 
+        height: auto; 
     }
     
     /* Картки книг: відображаються в одну колонку */
     .book-container {
         display: grid;
-        grid-template-columns: 1fr; /* Одна колонка */
-        gap: 20px; /* Проміжок між картками */
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
     
     .book-card {
-        width: 100%; /* Картки займають всю ширину контейнера */
+        width: 100%; 
         padding: 10px;
     }
     
-    /* Стилі для акаунту */
     .account-info {
         width: 100%;
         padding: 10px;
     }
     
-    /* Оновлюємо розміри кнопок */
     .account-info button {
         padding: 10px 15px;
         font-size: 1em;
@@ -459,39 +458,33 @@ footer {
     }
 }
 
-/* Медіа-запит для мобільних пристроїв (макс. ширина 480px) */
 @media (max-width: 480px) {
-    /* Панель навігації: зменшуємо шрифт і відступи */
     .navigation a {
         font-size: 0.9em;
         padding: 8px 15px;
     }
     
-    /* Зменшуємо розмір заголовків */
     h1, h2 {
         font-size: 1.5em;
     }
     
-    /* Картки книг: використовуємо 2 колонки */
     .book-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 колонки */
-        gap: 15px; /* Проміжок між картками */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px; 
     }
     
     .book-card {
-        width: 100%; /* Картки на всю ширину контейнера */
+        width: 100%;
         padding: 10px;
-        box-sizing: border-box; /* Щоб padding не виходив за межі */
+        box-sizing: border-box; 
     }
     
-    /* Зображення книг на мобільних пристроях */
     .book-image {
         max-width: 100%;
-        height: auto; /* Підтримуємо пропорції */
+        height: auto;
     }
     
-    /* Підкоригуємо розміри тексту в акаунті */
     .account-info p {
         font-size: 0.9em;
     }
@@ -500,7 +493,6 @@ footer {
         font-size: 1em;
     }
     
-    /* Встановлюємо фіксовану ширину кнопок */
     .account-info button {
         width: 100%;
         font-size: 1em;
@@ -510,4 +502,175 @@ footer {
     .registration-button {
         font-size: 1em;
     }
+}
+
+.hidden {
+    display: none;
+}
+
+#comment-form {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+#comment-form input,
+#comment-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+#comment-form button {
+    background-color: #ff7a18;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#comment-form button:hover {
+    background-color: #ff7a18;
+}
+
+#comments-list {
+    margin-top: 20px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#comments-list li {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff7a18;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button:hover {
+    background-color: #ff7a18;
+}
+
+.book-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-card button {
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #ff7a18, #ffbb5e);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+#cart-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cart-item {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item button {
+    background-color: #ff7a18;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Стилі для кнопок */
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#checkout-btn, #clear-cart-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#clear-cart-btn {
+    background-color: #f44336; 
+    color: white;
+}
+
+/* #checkout-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#checkout-btn:hover, #clear-cart-btn:hover {
+    opacity: 0.8;
+} */
+
+.cart-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.cart-button {
+    padding: 12px 20px;
+    background: linear-gradient(90deg, #ff7a18, #ffbb5e); 
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 48%; 
+}
+
+.cart-button:hover {
+    background: linear-gradient(90deg, #ffbb5e, #ff7a18); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
+}
+
+.cart-button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
